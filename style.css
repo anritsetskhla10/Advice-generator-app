@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+body{
+    min-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202733;
+}
+
+main{
+    width: 343px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1);
+    background-color: #313a48;
+    margin: 0 16px;
+}
+
+h1{
+    margin: 40px 0 24px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3.46px;
+    text-align: center;
+    color: #53ffaa;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.26px;
+    text-align: center;
+    color: #cee3e9;
+    margin: 0 24px;
+}
+
+.divider-mobile{
+    margin:  24px 0 64px;
+}
+
+.divider-desktop{
+    display: none;
+}
+
+.dice{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: -32px;
+    background-color: #53ffaa;
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    
+
+
+main{
+    width: 540px;
+    height: 332px;
+    border-radius: 15px;
+    margin: 0 48px;
+}
+
+h1{
+    margin: 40px 0 24px;
+    font-size: 13px;
+    letter-spacing: 4.09px;
+}
+
+p{
+    font-size: 28px;
+    letter-spacing: -0.3px;
+    margin: 0 48px;
+}
+
+.divider-desktop{
+    display: block;
+    margin:  48px 0 72px;
+}
+
+.divider-mobile{
+    display: none;
+}
+
+.dice:hover{
+    cursor: pointer;
+    box-shadow: 0 0 40px 0 #53ffaa;
+    background-color: #53ffaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
